@@ -1,9 +1,6 @@
 import json
 from shapely.geometry import shape
 
-# ------------------------------
-# Load configuration
-# ------------------------------
 with open("config.json", encoding="utf-8") as f:
     config = json.load(f)
 
@@ -16,9 +13,7 @@ DEFAULT_COLOR = config.get("default_color", "#888888")
 MARKER_SIZE = config.get("marker_size", "medium")
 MARKER_SYMBOL = config.get("marker_symbol", "rail")
 
-# ------------------------------
-# Utility function to lighten a hex color
-# ------------------------------
+
 def lighten_color(hex_color, factor=0.5):
     hex_color = hex_color.lstrip("#")
     r = int(hex_color[0:2], 16)
@@ -29,15 +24,10 @@ def lighten_color(hex_color, factor=0.5):
     b = int(b + (255 - b) * factor)
     return f"#{r:02X}{g:02X}{b:02X}"
 
-# ------------------------------
-# Load GeoJSON
-# ------------------------------
 with open(INPUT_PATH, encoding="utf-8") as f:
     geojson_data = json.load(f)
 
-# ------------------------------
-# Prepare city polygons for spatial checking
-# ------------------------------
+
 cities_polygons = []
 for feature in geojson_data["features"]:
     geom_type = feature["geometry"]["type"]
@@ -45,7 +35,7 @@ for feature in geojson_data["features"]:
     name = props.get("name", "unknown")
     
     if name not in CITIES:
-        continue  # skip cities not in config
+        continue
     
     if geom_type in ["Polygon", "MultiPolygon"]:
         polygon = shape(feature["geometry"])
@@ -57,9 +47,7 @@ for feature in geojson_data["features"]:
         feature["properties"]["fill"] = fill_color
         cities_polygons.append({"polygon": polygon, "name": name})
 
-# ------------------------------
-# Update station/point features with city colors
-# ------------------------------
+
 for feature in geojson_data["features"]:
     if feature["geometry"]["type"] != "Point":
         continue
@@ -72,11 +60,9 @@ for feature in geojson_data["features"]:
             feature["properties"]["marker-color"] = color
             feature["properties"]["marker-size"] = MARKER_SIZE
             feature["properties"]["marker-symbol"] = MARKER_SYMBOL
-            break  # stop at first containing city
+            break
 
-# ------------------------------
-# Save updated GeoJSON
-# ------------------------------
+
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(geojson_data, f, indent=2)
 
