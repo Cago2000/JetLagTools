@@ -3,6 +3,7 @@ from shapely.geometry import shape
 from colors import lighten_color
 from config import *
 
+
 def assign_city_to_points(features, city_polygons):
     for feature in features:
         if feature["geometry"]["type"] != "Point":
@@ -45,9 +46,6 @@ def build_city_polygons(features, city_colors):
         feature_props["stroke-width"] = STROKE_WIDTH
         feature_props["fill"] = fill_color
 
-        city_polygons.append({
-            "name": city_name,
-            "polygon": city_polygon
-        })
+        city_polygons.append({"name": city_name, "polygon": city_polygon})
 
     return city_polygons
