@@ -1,3 +1,23 @@
+def apply_filters(data, filters, stage_name=""):
+    features = []
+    for feature in data["features"]:
+        remove = False
+        reasons = []
+        for flt in filters:
+            should_remove, reason = flt(feature)
+            if should_remove:
+                remove = True
+                if reason:
+                    reasons.append(reason)
+        if remove:
+            name = feature.get("properties", {}).get("name", "unknown")
+            print(f"[{stage_name}] Removed feature: name='{name}', reasons={reasons}")
+            continue
+        features.append(feature)
+    data["features"] = features
+    return data
+
+
 def filter_admin_centers(feature):
     props = feature.get("properties", {})
     relations = props.get("@relations", [])
@@ -6,17 +26,24 @@ def filter_admin_centers(feature):
         return True, f"relation_roles={roles}"
     return False, None
 
+
 def filter_tourism_usage(feature):
     usage = feature.get("properties", {}).get("usage")
     if usage == "tourism":
         return True, "usage=tourism"
     return False, None
 
+
 def filter_no_city(feature):
     props = feature.get("properties", {})
-    if feature["geometry"]["type"] == "Point" and props.get("railway") in ("station", "halt") and props.get("city") is None:
+    if (
+        feature["geometry"]["type"] == "Point"
+        and props.get("railway") in ("station", "halt")
+        and props.get("city") is None
+    ):
         return True, "city=None"
     return False, None
+
 
 def pre_filter(data):
     features = []
@@ -38,6 +65,7 @@ def pre_filter(data):
     data["features"] = features
     return data
 
+
 def post_filter(data):
     features = []
 
@@ -58,11 +86,10 @@ def post_filter(data):
     data["features"] = features
     return data
 
+
 FILTERS_PREFILTER = [
     filter_admin_centers,
     filter_tourism_usage,
 ]
 
-FILTERS_POSTFILTER = [
-    filter_no_city
-]
+FILTERS_POSTFILTER = [filter_no_city]

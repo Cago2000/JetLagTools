@@ -1,9 +1,9 @@
 from shapely.geometry import shape
 from colors import *
 from config import *
-from filters import pre_filter, post_filter
+from filters import apply_filters, FILTERS_PREFILTER, FILTERS_POSTFILTER
 
-data = pre_filter(data)
+data = apply_filters(data, FILTERS_PREFILTER, stage_name="Pre-Filter")
 
 cities_polygons = []
 
@@ -36,7 +36,7 @@ for feature in data["features"]:
             props["marker-symbol"] = MARKER_SYMBOL
             break
 
-data = post_filter(data)
+data = apply_filters(data, FILTERS_POSTFILTER, stage_name="Post-Filter")
 
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
@@ -45,7 +45,10 @@ print(f"\nGeoJSON saved: {OUTPUT_PATH}\n")
 i = 1
 for feature in data["features"]:
     props = feature.get("properties", {})
-    if feature["geometry"]["type"] == "Point" and props.get("railway") in ("station", "halt"):
+    if feature["geometry"]["type"] == "Point" and props.get("railway") in (
+        "station",
+        "halt",
+    ):
         print(
             f"{i:03d} - {props.get('name')} | "
             f"city={props.get('city')} | "
