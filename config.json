@@ -1,0 +1,16 @@
+{
+  "input_geojson": "input/map.geojson",
+  "output_geojson": "output/map_colored.geojson",
+  "cities": {
+    "Mülheim an der Ruhr": "#00FF00",
+    "Duisburg": "#FF0000",
+    "Essen": "#FFC0CB",
+    "Oberhausen": "#FFFF00",
+    "Bottrop": "#0000FF"
+  },
+  "fill_lighten_factor": 0.6,
+  "stroke_width": 2,
+  "default_color": "#888888",
+  "marker_size": "medium",
+  "marker_symbol": "rail"
+}
