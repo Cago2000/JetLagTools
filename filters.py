@@ -15,7 +15,6 @@ def apply_filters(data, filters, stage_name=""):
             continue
         features.append(feature)
     data["features"] = features
-    return data
 
 
 def filter_admin_centers(feature):

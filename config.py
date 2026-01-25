@@ -1,7 +1,7 @@
 import json
+from data_io import load_data
 
-with open("config.json", encoding="utf-8") as f:
-    config = json.load(f)
+config = load_data(input_path="config.json")
 
 INPUT_PATH = config.get("input_geojson", "map.geojson")
 OUTPUT_PATH = config.get("output_geojson", "map_colored.geojson")
@@ -12,5 +12,4 @@ DEFAULT_COLOR = config.get("default_color", "#888888")
 MARKER_SIZE = config.get("marker_size", "medium")
 MARKER_SYMBOL = config.get("marker_symbol", "rail")
 
-with open(INPUT_PATH, encoding="utf-8") as f:
-    data = json.load(f)
+data = load_data(input_path=INPUT_PATH)
