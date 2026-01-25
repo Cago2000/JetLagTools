@@ -44272,393 +44272,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/27350363",
-        "@relations": [
-          {
-            "role": "label",
-            "rel": 62713,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "408",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05113000",
-              "de:place": "city",
-              "de:regionalschluessel": "051130000000",
-              "ele": "116",
-              "license_plate_code": "E",
-              "name": "Essen",
-              "name:ar": "\u0625\u0633\u0646",
-              "name:bg": "\u0415\u0441\u0435\u043d",
-              "name:cs": "Essen",
-              "name:el": "\u0388\u03c3\u03c3\u03b7",
-              "name:fa": "\u0627\u0633\u0646",
-              "name:fr": "Essen",
-              "name:he": "\u05d0\u05e1\u05df",
-              "name:hu": "Essen",
-              "name:ja": "\u30a8\u30c3\u30bb\u30f3",
-              "name:ka": "\u10d4\u10e1\u10d4\u10dc\u10d8",
-              "name:kk": "\u042d\u0441\u0441\u0435\u043d",
-              "name:ko": "\uc5d0\uc13c",
-              "name:ksh": "\u00c4\u00df\u00dfe",
-              "name:la": "Assindia",
-              "name:li": "Esse",
-              "name:lt": "Esenas",
-              "name:lv": "Esene",
-              "name:mr": "\u090f\u0938\u0947\u0928",
-              "name:nds": "Essen",
-              "name:prefix": "Stadt",
-              "name:ru": "\u042d\u0441\u0441\u0435\u043d",
-              "name:sr": "\u0415\u0441\u0435\u043d",
-              "name:th": "\u0e40\u0e2d\u0e2a\u0e40\u0e0b\u0e34\u0e19",
-              "name:ug": "\u00c9s\u00e9n",
-              "name:uk": "\u0415\u0441\u0441\u0435\u043d",
-              "name:ur": "\u0627\u06cc\u0633\u0646",
-              "name:zh": "\u57c3\u68ee",
-              "name:zh-Hans": "\u57c3\u68ee",
-              "name:zh-Hant": "\u57c3\u68ee",
-              "openGeoDB:community_identification_number": "05113",
-              "openGeoDB:license_plate_code": "E",
-              "openGeoDB:loc_id": "426",
-              "opendata_portal": "https://opendata.essen.de",
-              "place": "city",
-              "population": "569884",
-              "ref:LOCODE": "DEESS",
-              "ref:nuts:3": "DEA13",
-              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
-              "type": "boundary",
-              "website": "https://www.essen.de/",
-              "wikidata": "Q2066",
-              "wikipedia": "de:Essen"
-            }
-          },
-          {
-            "role": "admin_centre",
-            "rel": 62713,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "408",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05113000",
-              "de:place": "city",
-              "de:regionalschluessel": "051130000000",
-              "ele": "116",
-              "license_plate_code": "E",
-              "name": "Essen",
-              "name:ar": "\u0625\u0633\u0646",
-              "name:bg": "\u0415\u0441\u0435\u043d",
-              "name:cs": "Essen",
-              "name:el": "\u0388\u03c3\u03c3\u03b7",
-              "name:fa": "\u0627\u0633\u0646",
-              "name:fr": "Essen",
-              "name:he": "\u05d0\u05e1\u05df",
-              "name:hu": "Essen",
-              "name:ja": "\u30a8\u30c3\u30bb\u30f3",
-              "name:ka": "\u10d4\u10e1\u10d4\u10dc\u10d8",
-              "name:kk": "\u042d\u0441\u0441\u0435\u043d",
-              "name:ko": "\uc5d0\uc13c",
-              "name:ksh": "\u00c4\u00df\u00dfe",
-              "name:la": "Assindia",
-              "name:li": "Esse",
-              "name:lt": "Esenas",
-              "name:lv": "Esene",
-              "name:mr": "\u090f\u0938\u0947\u0928",
-              "name:nds": "Essen",
-              "name:prefix": "Stadt",
-              "name:ru": "\u042d\u0441\u0441\u0435\u043d",
-              "name:sr": "\u0415\u0441\u0435\u043d",
-              "name:th": "\u0e40\u0e2d\u0e2a\u0e40\u0e0b\u0e34\u0e19",
-              "name:ug": "\u00c9s\u00e9n",
-              "name:uk": "\u0415\u0441\u0441\u0435\u043d",
-              "name:ur": "\u0627\u06cc\u0633\u0646",
-              "name:zh": "\u57c3\u68ee",
-              "name:zh-Hans": "\u57c3\u68ee",
-              "name:zh-Hant": "\u57c3\u68ee",
-              "openGeoDB:community_identification_number": "05113",
-              "openGeoDB:license_plate_code": "E",
-              "openGeoDB:loc_id": "426",
-              "opendata_portal": "https://opendata.essen.de",
-              "place": "city",
-              "population": "569884",
-              "ref:LOCODE": "DEESS",
-              "ref:nuts:3": "DEA13",
-              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
-              "type": "boundary",
-              "website": "https://www.essen.de/",
-              "wikidata": "Q2066",
-              "wikipedia": "de:Essen"
-            }
-          }
-        ],
-        "marker-color": "#FFC0CB",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0158171,
-          51.4582235
-        ]
-      },
-      "id": "node/27350363"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/240026265",
-        "@relations": [
-          {
-            "role": "admin_centre",
-            "rel": 62634,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "354",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05512000",
-              "de:place": "city",
-              "de:regionalschluessel": "055120000000",
-              "license_plate_code": "BOT",
-              "name": "Bottrop",
-              "name:ar": "\u0628\u0648\u062a\u0631\u0648\u0628",
-              "name:prefix": "Stadt",
-              "opendata_portal": "https://www.bottrop.de/daten-karten/offenedaten",
-              "ref:nuts:3": "DEA31",
-              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
-              "type": "boundary",
-              "website": "https://www.bottrop.de",
-              "wikidata": "Q3069",
-              "wikipedia": "de:Bottrop"
-            }
-          }
-        ],
-        "marker-color": "#0000FF",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.929204,
-          51.521581
-        ]
-      },
-      "id": "node/240026265"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/240055326",
-        "@relations": [
-          {
-            "role": "admin_centre",
-            "rel": 62456,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "391",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05112000",
-              "de:place": "city",
-              "de:regionalschluessel": "051120000000",
-              "license_plate_code": "DU",
-              "name": "Duisburg",
-              "name:ar": "\u062f\u0648\u064a\u0633\u0628\u0648\u0631\u063a",
-              "name:az-Arab": "\u062f\u0648\u06cc\u0633\u0628\u0648\u0631\u0642",
-              "name:azb": "\u062f\u0648\u06cc\u0633\u0628\u0648\u0631\u0642",
-              "name:de": "Duisburg",
-              "name:el": "\u039d\u03c4\u03bf\u03cd\u03b9\u03c3\u03bc\u03c0\u03bf\u03c5\u03c1\u03b3\u03ba",
-              "name:es": "Duisburgo",
-              "name:gl": "Duisburgo",
-              "name:hy": "\u0534\u0578\u0582\u0575\u057d\u0562\u0578\u0582\u0580\u0563",
-              "name:kk-Arab": "\u062f\u06cb\u064a\u0633\u0628\u06cb\u0631\u06af",
-              "name:prefix": "Stadt",
-              "name:prefix:uk": "\u043c\u0456\u0441\u0442\u043e",
-              "name:pt": "Duisburgo",
-              "name:uk": "\u0414\u0443\u0439\u0441\u0431\u0443\u0440\u0433",
-              "name:ur": "\u0688\u06cc\u0633\u0628\u0648\u0631\u06af",
-              "opendata_portal": "https://www.opendata-duisburg.de",
-              "ref:nuts:3": "DEA12",
-              "type": "boundary",
-              "website": "https://www.duisburg.de",
-              "wikidata": "Q2100",
-              "wikipedia": "de:Duisburg"
-            }
-          }
-        ],
-        "marker-color": "#FF0000",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.759562,
-          51.434999
-        ]
-      },
-      "id": "node/240055326"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1575668118",
-        "@relations": [
-          {
-            "role": "label",
-            "rel": 62385,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "547",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "alt_name:mk": "\u041c\u0438\u043b\u0445\u0430\u0458\u043c",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05117000",
-              "de:place": "city",
-              "de:regionalschluessel": "051170000000",
-              "license_plate_code": "MH",
-              "name": "M\u00fclheim an der Ruhr",
-              "name:ar": "\u0645\u0648\u0644\u0647\u0627\u064a\u0645 \u0639\u0644\u0649 \u0627\u0644\u0631\u0648\u0631",
-              "name:de": "M\u00fclheim an der Ruhr",
-              "name:ja": "\u30df\u30e5\u30fc\u30eb\u30cf\u30a4\u30e0\u30fb\u30a2\u30f3\u30fb\u30c7\u30a2\u30fb\u30eb\u30fc\u30eb",
-              "name:ksh": "M\u00fcllem",
-              "name:la": "Mulhemium ad Ruram",
-              "name:mk": "\u041c\u0430\u043b\u0445\u0430\u0458\u043c \u0434\u0435\u0440 \u0420\u0443\u0440",
-              "name:prefix": "Stadt",
-              "name:ru": "\u041c\u044e\u043b\u044c\u0445\u0430\u0439\u043c-\u043d\u0430-\u0420\u0443\u0440\u0435",
-              "name:uk": "\u041c\u044e\u043b\u044c\u0445\u0430\u0439\u043c \u0430\u043d \u0434\u0435\u0440 \u0420\u0443\u0440",
-              "name:zh-Hans": "\u9c81\u5c14\u200b\u6cb3\u200b\u7554\u200b\u7c73\u5c14\u6d77\u59c6",
-              "name:zh-Hant": "\u9b6f\u723e\u6cb3\u7554\u7c73\u723e\u6d77\u59c6",
-              "opendata_portal": "https://geo.muelheim-ruhr.de/open-data/13819",
-              "ref:nuts:3": "DEA16",
-              "short_name": "M\u00fclheim",
-              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
-              "type": "boundary",
-              "website": "https://www.muelheim-ruhr.de",
-              "wikidata": "Q2899",
-              "wikipedia": "de:M\u00fclheim an der Ruhr"
-            }
-          },
-          {
-            "role": "admin_centre",
-            "rel": 62385,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "547",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "alt_name:mk": "\u041c\u0438\u043b\u0445\u0430\u0458\u043c",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05117000",
-              "de:place": "city",
-              "de:regionalschluessel": "051170000000",
-              "license_plate_code": "MH",
-              "name": "M\u00fclheim an der Ruhr",
-              "name:ar": "\u0645\u0648\u0644\u0647\u0627\u064a\u0645 \u0639\u0644\u0649 \u0627\u0644\u0631\u0648\u0631",
-              "name:de": "M\u00fclheim an der Ruhr",
-              "name:ja": "\u30df\u30e5\u30fc\u30eb\u30cf\u30a4\u30e0\u30fb\u30a2\u30f3\u30fb\u30c7\u30a2\u30fb\u30eb\u30fc\u30eb",
-              "name:ksh": "M\u00fcllem",
-              "name:la": "Mulhemium ad Ruram",
-              "name:mk": "\u041c\u0430\u043b\u0445\u0430\u0458\u043c \u0434\u0435\u0440 \u0420\u0443\u0440",
-              "name:prefix": "Stadt",
-              "name:ru": "\u041c\u044e\u043b\u044c\u0445\u0430\u0439\u043c-\u043d\u0430-\u0420\u0443\u0440\u0435",
-              "name:uk": "\u041c\u044e\u043b\u044c\u0445\u0430\u0439\u043c \u0430\u043d \u0434\u0435\u0440 \u0420\u0443\u0440",
-              "name:zh-Hans": "\u9c81\u5c14\u200b\u6cb3\u200b\u7554\u200b\u7c73\u5c14\u6d77\u59c6",
-              "name:zh-Hant": "\u9b6f\u723e\u6cb3\u7554\u7c73\u723e\u6d77\u59c6",
-              "opendata_portal": "https://geo.muelheim-ruhr.de/open-data/13819",
-              "ref:nuts:3": "DEA16",
-              "short_name": "M\u00fclheim",
-              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
-              "type": "boundary",
-              "website": "https://www.muelheim-ruhr.de",
-              "wikidata": "Q2899",
-              "wikipedia": "de:M\u00fclheim an der Ruhr"
-            }
-          }
-        ],
-        "marker-color": "#00FF00",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8829192,
-          51.4272925
-        ]
-      },
-      "id": "node/1575668118"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1613672847",
-        "@relations": [
-          {
-            "role": "admin_centre",
-            "rel": 62734,
-            "reltags": {
-              "TMC:cid_58:tabcd_1:Class": "Area",
-              "TMC:cid_58:tabcd_1:LCLversion": "8.00",
-              "TMC:cid_58:tabcd_1:LocationCode": "575",
-              "admin_level": "6",
-              "admin_title": "independent town",
-              "admin_title:de": "Kreisfreie Stadt",
-              "boundary": "administrative",
-              "de:amtlicher_gemeindeschluessel": "05119000",
-              "de:place": "city",
-              "de:regionalschluessel": "051190000000",
-              "license_plate_code": "OB",
-              "name": "Oberhausen",
-              "name:ar": "\u0623\u0648\u0628\u0631\u0647\u0648\u0632\u0646",
-              "name:ksh": "Ovverhause",
-              "name:la": "Overhusa",
-              "name:prefix": "Stadt",
-              "opendata_portal": "no",
-              "ref:nuts:3": "DEA17",
-              "source": "http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005",
-              "type": "boundary",
-              "website": "https://www.oberhausen.de",
-              "wikidata": "Q2838",
-              "wikipedia": "de:Oberhausen"
-            }
-          }
-        ],
-        "marker-color": "#FFFF00",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8514435,
-          51.4696137
-        ]
-      },
-      "id": "node/1613672847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/2954034",
         "electrified": "contact_line",
         "frequency": 16.7,
@@ -182001,6 +181614,7 @@
         "wheelchair": "yes",
         "wikidata": "Q1913308",
         "wikipedia": "de:Haltepunkt Essen-Eiberg",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182027,6 +181641,7 @@
         "uic_ref": 8001107,
         "wheelchair": "no",
         "wikidata": "Q4949184",
+        "city": "Bottrop",
         "marker-color": "#0000FF",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182054,6 +181669,7 @@
         "uic_ref": 8004541,
         "wheelchair": "no",
         "wikidata": "Q801277",
+        "city": "Oberhausen",
         "marker-color": "#FFFF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182081,6 +181697,7 @@
         "uic_ref": 8001608,
         "wheelchair": "yes",
         "wikidata": "Q5312660",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182110,6 +181727,7 @@
         "wheelchair": "yes",
         "wikidata": "Q800690",
         "wikipedia": "de:Bahnhof Duisburg-Meiderich S\u00fcd",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182138,6 +181756,7 @@
         "wheelchair": "yes",
         "wikidata": "Q472955",
         "wikipedia": "de:Oberhausen Hauptbahnhof",
+        "city": "Oberhausen",
         "marker-color": "#FFFF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182165,6 +181784,7 @@
         "uic_ref": 8005910,
         "wikidata": "Q1852663",
         "wikipedia": "de:Bahnhof Trompet",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182181,43 +181801,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/897983600",
-        "addr:city": "Augsburg",
-        "addr:housenumber": 53,
-        "addr:postcode": 86154,
-        "addr:street": "Ulmer Stra\u00dfe",
-        "check_date:wheelchair": "2022-11-17",
-        "name": "Augsburg-Oberhausen",
-        "network": "Augsburger Verkehrs- und Tarifverbund",
-        "network:guid": "DE-BY-AVV",
-        "network:short": "AVV",
-        "network:wikidata": "Q760574",
-        "operator": "DB InfraGO AG",
-        "public_transport": "station",
-        "railway": "station",
-        "railway:ref": "MAOB",
-        "railway:ref:parent": "MA",
-        "railway:station_category": 4,
-        "ref:station": 224,
-        "train": "yes",
-        "uic_name": "Augsburg-Oberhausen",
-        "uic_ref": 8000662,
-        "wheelchair": "no",
-        "wikidata": "Q800413",
-        "wikipedia": "de:Bahnhof Augsburg-Oberhausen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8725408,
-          48.3807299
-        ]
-      },
-      "id": "node/897983600"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/998432426",
         "name": "Bottrop-Vonderort",
         "operator": "DB Netz AG",
@@ -182228,6 +181811,7 @@
         "uic_ref": 8001108,
         "wheelchair": "limited",
         "wikidata": "Q4949185",
+        "city": "Oberhausen",
         "marker-color": "#FFFF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182257,6 +181841,7 @@
         "uic_ref": 8004540,
         "wheelchair": "yes",
         "wikidata": "Q801274",
+        "city": "Oberhausen",
         "marker-color": "#FFFF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182286,6 +181871,7 @@
         "wheelchair": "yes",
         "wikidata": "Q17123492",
         "wikipedia": "de:Bahnhof Feldhausen",
+        "city": "Bottrop",
         "marker-color": "#0000FF",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182318,6 +181904,7 @@
         "wheelchair": "yes",
         "wikidata": "Q19634722",
         "wikipedia": "de:Bahnhof Duisburg-Ruhrort",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182345,6 +181932,7 @@
         "uic_ref": 8001909,
         "wikidata": "Q2322621",
         "wikipedia": "de:Haltepunkt Essen Zollverein Nord",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182373,6 +181961,7 @@
         "wheelchair:description": "Fahrstuhl vorhanden",
         "wikidata": "Q972885",
         "wikipedia": "de:Haltepunkt Essen-Kupferdreh",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182402,6 +181991,7 @@
         "wheelchair": "yes",
         "wikidata": "Q5399440",
         "wikipedia": "de:Haltepunkt Essen-Holthausen",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182430,6 +182020,7 @@
         "uic_ref": 8001596,
         "wheelchair": "no",
         "wikidata": "Q2067863",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182458,6 +182049,7 @@
         "wheelchair": "no",
         "wikidata": "Q820844",
         "wikipedia": "de:Haltepunkt Kettwig Stausee",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182493,6 +182085,7 @@
         "wheelchair": "yes",
         "wikidata": "Q567024",
         "wikipedia": "de:Duisburg Hauptbahnhof",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182522,6 +182115,7 @@
         "wheelchair": "yes",
         "wikidata": "Q800742",
         "wikipedia": "de:Bahnhof Essen-Altenessen",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182549,6 +182143,7 @@
         "wheelchair": "limited",
         "wikidata": "Q52723950",
         "wikipedia": "de:Bahnh\u00f6fe in Essen-Dellwig",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182577,6 +182172,7 @@
         "wheelchair": "yes",
         "wikidata": "Q2648159",
         "wikipedia": "de:Bahnhof M\u00fclheim (Ruhr)-Styrum",
+        "city": "M\u00fclheim an der Ruhr",
         "marker-color": "#00FF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182606,6 +182202,7 @@
         "wheelchair": "no",
         "wikidata": "Q2206683",
         "wikipedia": "de:Bahnhof Essen West",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182643,6 +182240,7 @@
         "wheelchair": "limited",
         "wikidata": "Q135607",
         "wikipedia": "de:Essen Hauptbahnhof",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182671,6 +182269,7 @@
         "wheelchair": "no",
         "wikidata": "Q800689",
         "wikipedia": "de:Bahnhof Duisburg-Hochfeld S\u00fcd",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182698,6 +182297,7 @@
         "wheelchair": "limited",
         "wikidata": "Q20971631",
         "wikipedia": "de:Haltepunkt Rheinhausen Ost",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182727,6 +182327,7 @@
         "uic_ref": 8001600,
         "wheelchair": "yes",
         "wikidata": "Q683167",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182754,6 +182355,7 @@
         "uic_ref": 8001602,
         "wheelchair": "yes",
         "wikidata": "Q2535517",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182783,6 +182385,7 @@
         "uic_ref": 8001609,
         "wheelchair": "no",
         "wikidata": "Q3358251",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182813,6 +182416,7 @@
         "wheelchair:description": "Die Aufz\u00fcge sind vorerst dauerhaft au\u00dfer Betrieb \u2013 die bisher existierenden Anlagen werden durch neue ersetzt; Wieder-Inbetriebnahme voraussichtlich fr\u00fchestens im Sp\u00e4tsommer 2017.",
         "wikidata": "Q323893",
         "wikipedia": "de:Bottrop Hauptbahnhof",
+        "city": "Bottrop",
         "marker-color": "#0000FF",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182847,6 +182451,7 @@
         "wheelchair": "limited",
         "wikidata": "Q801279",
         "wikipedia": "de:Bahnhof Oberhausen-Sterkrade",
+        "city": "Oberhausen",
         "marker-color": "#FFFF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182877,6 +182482,7 @@
         "wheelchair": "yes",
         "wikidata": "Q468107",
         "wikipedia": "de:M\u00fclheim (Ruhr) Hauptbahnhof",
+        "city": "M\u00fclheim an der Ruhr",
         "marker-color": "#00FF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182904,6 +182510,7 @@
         "wheelchair": "yes",
         "wikidata": "Q12013414",
         "wikipedia": "de:Bahnhof Essen-Steele",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182931,6 +182538,7 @@
         "uic_ref": 8006194,
         "wheelchair": "yes",
         "wikidata": "Q4843371",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182960,6 +182568,7 @@
         "wheelchair": "yes",
         "wikidata": "Q801359",
         "wikipedia": "de:Bahnhof Rheinhausen",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -182986,6 +182595,7 @@
         "uic_ref": 8001906,
         "wikidata": "Q2155124",
         "wikipedia": "de:Haltepunkt Essen-Frohnhausen",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183015,6 +182625,7 @@
         "wheelchair": "limited",
         "wikidata": "Q5399447",
         "wikipedia": "de:Bahnhof Essen-Stadtwald",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183042,6 +182653,7 @@
         "wheelchair": "yes",
         "wikidata": "Q2464607",
         "wikipedia": "de:Haltepunkt Essen S\u00fcd",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183070,6 +182682,7 @@
         "wheelchair": "no",
         "wikidata": "Q324745",
         "wikipedia": "de:Haltepunkt Essen-H\u00fcgel",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183098,6 +182711,7 @@
         "wheelchair": "yes",
         "wikidata": "Q2203213",
         "wikipedia": "de:Bahnhof Essen-Werden",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183126,6 +182740,7 @@
         "wheelchair": "yes",
         "wikidata": "Q2131498",
         "wikipedia": "de:Bahnhof Kettwig",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183155,6 +182770,7 @@
         "train": "no",
         "uic_ref": 8005272,
         "wikidata": "Q1344523",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183180,6 +182796,7 @@
         "railway:ref": "EDWDP",
         "train": "yes",
         "uic_ref": 8001612,
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183209,6 +182826,7 @@
         "uic_ref": 8001612,
         "wikidata": "Q800692",
         "wikipedia": "de:Bahnhof Duisburg-Wedau",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183225,27 +182843,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3783163296",
-        "name": "Essen-Kupferdreh",
-        "operator": "Hespertalbahn e.V.",
-        "railway": "halt",
-        "usage": "tourism",
-        "marker-color": "#FFC0CB",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0777821,
-          51.3930414
-        ]
-      },
-      "id": "node/3783163296"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3974712659",
         "name": "Margarethenh\u00f6he",
         "operator": "Ruhrbahn",
@@ -183253,6 +182850,7 @@
         "railway": "station",
         "subway": "yes",
         "wheelchair": "yes",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183277,6 +182875,7 @@
         "ref:IFOPT": "de:5113:9251:1:1",
         "subway": "yes",
         "wheelchair": "yes",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183305,6 +182904,7 @@
         "wheelchair": "no",
         "wikidata": "Q2145550",
         "wikipedia": "de:Bahnhof Essen-Bergeborbeck",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183337,6 +182937,7 @@
         "wheelchair:description": "Nur in Fahrtrichtung Essen Hbf eingeschr\u00e4nkt rollstuhlgerecht, in Fahrtrichtung Bochum Hbf nicht rollstuhlgerecht!!!",
         "wikidata": "Q21042075",
         "wikipedia": "de:Haltepunkt Essen-Kray S\u00fcd",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183366,6 +182967,7 @@
         "wheelchair": "no",
         "wikidata": "Q2353260",
         "wikipedia": "de:Bahnhof M\u00fclheim (Ruhr) West",
+        "city": "M\u00fclheim an der Ruhr",
         "marker-color": "#00FF00",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183393,6 +182995,7 @@
         "wheelchair": "no",
         "wikidata": "Q5399434",
         "wikipedia": "de:Haltepunkt Essen-Borbeck S\u00fcd",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183422,6 +183025,7 @@
         "wheelchair": "yes",
         "wikidata": "Q12057284",
         "wikipedia": "de:Bahnhof Essen-Borbeck",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183448,6 +183052,7 @@
         "uic_ref": 8001907,
         "wheelchair": "yes",
         "wikidata": "Q5399439",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183477,6 +183082,7 @@
         "wheelchair": "yes",
         "wikidata": "Q52723950",
         "wikipedia": "de:Bahnh\u00f6fe in Essen-Dellwig",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183505,6 +183111,7 @@
         "uic_ref": 8001607,
         "wheelchair": "yes",
         "wikidata": "Q5312659",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183532,6 +183139,7 @@
         "wheelchair": "no",
         "wikidata": "Q1992521",
         "wikipedia": "de:Haltepunkt Rumeln",
+        "city": "Duisburg",
         "marker-color": "#FF0000",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183544,65 +183152,6 @@
         ]
       },
       "id": "node/4598678518"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4623339106",
-        "name": "Essen",
-        "network": "NMBS/SNCB",
-        "network:wikidata": "Q524255",
-        "operator": "NMBS/SNCB",
-        "operator:wikidata": "Q524255",
-        "platforms": 3,
-        "public_transport": "station",
-        "railway": "station",
-        "railway:position:exact": "74.500",
-        "railway:ref": "FES",
-        "toilets:wheelchair": "yes",
-        "train": "yes",
-        "uic_ref": 8821402,
-        "website": "https://www.belgiantrain.be/station-information/antwerpen/essen",
-        "wheelchair": "limited",
-        "wikidata": "Q2157270",
-        "wikipedia": "nl:Station Essen"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.45117,
-          51.4626799
-        ]
-      },
-      "id": "node/4623339106"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4623344475",
-        "name": "Wildert",
-        "network": "NMBS/SNCB",
-        "network:wikidata": "Q524255",
-        "operator": "NMBS/SNCB",
-        "operator:wikidata": "Q524255",
-        "public_transport": "station",
-        "railway": "station",
-        "railway:position:exact": 70.418,
-        "railway:ref": "GWD",
-        "train": "yes",
-        "uic_ref": 8821436,
-        "website": "https://www.belgiantrain.be/station-information/antwerpen/wildert",
-        "wikidata": "Q2216154",
-        "wikipedia": "nl:Station Wildert"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4634184,
-          51.4276753
-        ]
-      },
-      "id": "node/4623344475"
     },
     {
       "type": "Feature",
@@ -183620,6 +183169,7 @@
         "uic_ref": 8001914,
         "wikidata": "Q2730362",
         "wikipedia": "de:Bahnhof Essen-\u00dcberruhr",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183654,6 +183204,7 @@
         "wheelchair": "yes",
         "wikidata": "Q2526238",
         "wikipedia": "de:Bahnhof Essen-Steele Ost",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183683,6 +183234,7 @@
         "wheelchair": "yes",
         "wikidata": "Q2473995",
         "wikipedia": "de:Bahnhof Essen-Kray Nord",
+        "city": "Essen",
         "marker-color": "#FFC0CB",
         "marker-size": "medium",
         "marker-symbol": "rail"
@@ -183695,99 +183247,6 @@
         ]
       },
       "id": "node/4842686862"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5922874909",
-        "intermittent": "yes",
-        "name": "Landschaftspark Duisburg Nord",
-        "public_transport": "station",
-        "railway": "station",
-        "usage": "tourism",
-        "wheelchair": "yes",
-        "marker-color": "#FF0000",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7806686,
-          51.4796298
-        ]
-      },
-      "id": "node/5922874909"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6760391876",
-        "name": "Zementfabrik",
-        "railway": "halt",
-        "usage": "tourism",
-        "marker-color": "#FFC0CB",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0756682,
-          51.3895426
-        ]
-      },
-      "id": "node/6760391876"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11197875945",
-        "name": "Unterhausen (Bay)",
-        "network": "INVG",
-        "operator": "DB InfraGO AG",
-        "operator:website": "https://dbinfrago.com",
-        "operator:wikidata": "Q122870674",
-        "operator:wikipedia": "de:DB InfraGO",
-        "public_transport": "station",
-        "railway": "station",
-        "railway:ref": "MUHN",
-        "railway:station_category": 6,
-        "ref:station": 6351,
-        "uic_name": "Unterhausen (Bay)",
-        "uic_ref": 8005993,
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.1002935,
-          48.7168039
-        ]
-      },
-      "id": "node/11197875945"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/13034455108",
-        "name": "Haus Scheppen",
-        "operator": "Hespertalbahn e.V.",
-        "railway": "halt",
-        "train": "yes",
-        "usage": "tourism",
-        "marker-color": "#FFC0CB",
-        "marker-size": "medium",
-        "marker-symbol": "rail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0496931,
-          51.3966028
-        ]
-      },
-      "id": "node/13034455108"
     }
   ]
 }
