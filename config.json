@@ -2,11 +2,14 @@
   "input_geojson": "input/map.geojson",
   "output_geojson": "output/map_colored.geojson",
   "cities": {
-    "Mülheim an der Ruhr": "#00FF00",
-    "Duisburg": "#FF0000",
-    "Essen": "#FFC0CB",
-    "Oberhausen": "#FFFF00",
-    "Bottrop": "#0000FF"
+      "Mülheim an der Ruhr": "#2ECC71",
+      "Duisburg": "#E74C3C",
+      "Essen": "#F5A9BC",
+      "Oberhausen": "#F1C40F",
+      "Bottrop": "#3498DB",
+      "Gladbeck": "#E67E22",
+      "Ratingen": "#1ABC9C",
+      "Gelsenkirchen": "#EC407A"
   },
   "fill_lighten_factor": 0.6,
   "stroke_width": 2,
